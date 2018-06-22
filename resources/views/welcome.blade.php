@@ -13,11 +13,7 @@
 </head>
 
 <body>
-    <ul>
-        @foreach ($tasks as $task)
-        <li>{{$task}}</li>
-        @endforeach
-    </ul>
+    <h1>Hello World</h1>
 </body>
 
 </html>

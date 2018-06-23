@@ -13,9 +13,12 @@ use App\Task;
 |
  */
 
+/* 
 Route::get('/', function () {
     return view('welcome');
 });
+ */
+Route::get('/', 'PostsController@index');
 
 Route::get('/tasks', 'TasksController@index');
 

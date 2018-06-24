@@ -14,6 +14,7 @@
 <body>
   @include('includes.navbar')
   <div class="container">
+    @include('includes.err_msgs') 
     @yield('content')
   </div>
 
